@@ -10,3 +10,15 @@ button.onclick = function () {
     xhr.open("GET", "data.txt", true);
     xhr.send();
 }
+// button.addEventListener("click", function () {
+
+//     if (xhr.readyState == 4 && xhr.status == 200) {
+//         document.getElementById("output").textContent = xhr.responseText;
+
+
+//     }
+
+//     xhr.open("GET", "data.txt", true);
+//     xhr.send();
+
+// });
